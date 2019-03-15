@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    min-width: 800px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+div {
+    width: calc(12% - 1px);
+    height: auto;
+}
+
+.blanco {
+    background-color: #A5907E;
+}
+
+.negro {
+    background-color:#DEB887;
+}
