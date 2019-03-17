@@ -1,24 +1,13 @@
 //alert("Hola");
-
-var number = 64;
-var caja = document.querySelectorAll("div");
-
-/*onLoad();
-
+onLoad();
 function onLoad() {
-    
-}*/
-
-/*document.addEventListener("load", function () {
-    alert("Hola");
-    
-});*/
-
-for (var i = 0; i < number; i++) {
-    if (number[i]%2 != 0) {
-        caja.classList.add("blanco");
+  for (var i = 0; i <  8; i++) {
+    for(var j = 0; j < 8; j++) {
+      if (i%2 == j%2) {
+        document.write("<div class='container box white'></div>");
+      } else {
+        document.write("<div class='container box black'></div>")
+      }
     }
-    else {
-        caja.classList.add("negro");
-    }
+  }
 }
